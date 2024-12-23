@@ -10,19 +10,21 @@
 using namespace std;
 class Tester {
 public:
-  bool testSnakesAlNormal();                              // done
-  bool testSnakesAlError();                               // done
-  bool testSnakesAlEdge();                                // done
-  bool testSnakesRestartNormal();                         // done
-  bool testSnakesRestartError();                          // done
-  bool testSnakesClearNormal();                           // done
-  bool testSnakesClearError();                            // done
-  bool testSnakesMakeDefaultNormal(int size);             // done
-  bool testSnakesMakeDefaultEdge(int size);               // done
-  bool testSnakesMakeDefaultError(int size);              // done
-  bool testSnakesMakeRandomNormal(int size, int numObst); // done
-  bool testSnakesMakeRandomEdge(int size, int numObst);   // done
-  bool testSnakesMakeRandomError(int size, int numObst);  // done
+
+  //Useful tests made for this implementation
+  bool testSnakesAlNormal();                              
+  bool testSnakesAlError();                              
+  bool testSnakesAlEdge();                                
+  bool testSnakesRestartNormal();                         
+  bool testSnakesRestartError();                          
+  bool testSnakesClearNormal();                         
+  bool testSnakesClearError();                            
+  bool testSnakesMakeDefaultNormal(int size);             
+  bool testSnakesMakeDefaultEdge(int size);             
+  bool testSnakesMakeDefaultError(int size);             
+  bool testSnakesMakeRandomNormal(int size, int numObst); 
+  bool testSnakesMakeRandomEdge(int size, int numObst); 
+  bool testSnakesMakeRandomError(int size, int numObst); 
   bool testSnakesOverloadAsNormal(const Snakes &orig);
   bool testSnakesOverloadAsEdge(const Snakes &orig);
   bool testSnakesPlayNormal();
