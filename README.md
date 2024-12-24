@@ -17,6 +17,7 @@ snakes.h - Interface for the Snakes class.
 snakes.cpp - Implementation of Snake class
 mytest.cpp - A test file to test different methods of the snake class
 driver.txt - sample output from driver.cpp.
+driver.cpp - A sample program to test program functionality
 
 Snake Class:
 
